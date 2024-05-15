@@ -4,29 +4,37 @@ from pyspark.sql import functions as F
 from pyspark.sql.functions import explode
 
 
-# Function to check if column exists
 def check_column_exists(df, column_name):
+    """
+    Function simply checks whether column exists or not and returns bool
+    """
     try:
         df[column_name]
         return True
     except:
         return False
 
-# Function to Handle Missing Columns
-def ColumnOrNull(df, colName, name):
+
+def column_or_null(df, colName, name):
+    """
+    Function can handle missing columns in a spark select statement.
+    Particularly useful when working with files without schema validation.
+    Returns column when found or returns named column without data
+    """
     if (check_column_exists(df, colName)):
         return col(colName).alias(name)
     else:
         return lit(None).alias(name)
     
-    
-# Uzupełnienie nulli okok git commit
+
 def replace_null_with_list(column, n):
+    """
+    Replaces null value with an array of nulls that can be helpful for later exploding the data
+    """
     return F.when(F.expr(f"size({column}) > 0"), F.col(column)).otherwise(F.array([F.lit(None)] * n))
 
 
-# Eksplodowanie nulli
-def createColumnDf(df, col_name):
+def create_exploded_column_df(df, col_name):
     exploded_df = df.select(explode(col_name).alias(col_name))
     return exploded_df
 

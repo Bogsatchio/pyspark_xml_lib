@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sprawozdanie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://sprawozdawczosc.knf.gov.pl/nss/2024/01/xsd/knf.tfi.TM.xsd">
+	<Naglowek>
+		<IdentyfikatorZarzadzajacego>PLTFI000000</IdentyfikatorZarzadzajacego>
+		<NazwaZarzadzajacego>Nazwa zarządzającego</NazwaZarzadzajacego>
+		<IdentyfikatorDostawcyDanych>PLTFI000000</IdentyfikatorDostawcyDanych>
+		<WalutaSprawozdania>PLN</WalutaSprawozdania>
+		<OkresSprawozdawczy>
+			<DataOd>2024-01-01</DataOd>
+			<DataDo>2024-01-31</DataDo>
+			<Rok>2024</Rok>
+			<Miesiac>01</Miesiac>
+		</OkresSprawozdawczy>
+		<CzyKorekta>0</CzyKorekta>
+	</Naglowek>
+	<Dane>
+		<Aktywa AktywaOgolem="429011488.8">
+			<SrodkiPieniezne>164562864.32</SrodkiPieniezne>
+			<PapieryWartoscioweSkarbPanstwaNBP>167417620.2</PapieryWartoscioweSkarbPanstwaNBP>
+			<Naleznosci NaleznosciOgolem="39761940.6">
+				<FunduszeInwestycyjne FunduszeInwestycyjneOgolem="30297248.10">
+					<Nieprzeterminowane>30297248.11</Nieprzeterminowane>
+					<PrzeterminowaneDo30Dni>0</PrzeterminowaneDo30Dni>
+					<PrzeterminowaneOd31Do90Dni>0</PrzeterminowaneOd31Do90Dni>
+					<PrzeterminowaneOd91Do180Dni>0</PrzeterminowaneOd91Do180Dni>
+					<PrzeterminowaneOd181Do360Dni>0</PrzeterminowaneOd181Do360Dni>
+					<PrzeterminowanePowyzej360Dni>0</PrzeterminowanePowyzej360Dni>
+				</FunduszeInwestycyjne>
+				<Pozostale PozostaleOgolem="9454460.4">
+					<Nieprzeterminowane>1890892.08</Nieprzeterminowane>
+					<PrzeterminowaneDo30Dni>0</PrzeterminowaneDo30Dni>
+					<PrzeterminowaneOd31Do90Dni>0</PrzeterminowaneOd31Do90Dni>
+					<PrzeterminowaneOd91Do180Dni>4727230.20</PrzeterminowaneOd91Do180Dni>
+					<PrzeterminowaneOd181Do360Dni>0</PrzeterminowaneOd181Do360Dni>
+					<PrzeterminowanePowyzej360Dni>2836338.12</PrzeterminowanePowyzej360Dni>
+				</Pozostale>
+			</Naleznosci>
+			<UdzialyIAkcjeSpolek>0</UdzialyIAkcjeSpolek>
+			<JednostkiUczestnictwa>4727230.2</JednostkiUczestnictwa>
+			<CertyfikatyInwestycyjne>0</CertyfikatyInwestycyjne>
+			<TytulyUczestnictwaZbiorczePortfele>0</TytulyUczestnictwaZbiorczePortfele>
+			<AkcjeWlasne>0</AkcjeWlasne>
+			<Wierzytelnosci>0</Wierzytelnosci>
+			<NaleznosciZTytuluWierzytelnosci>0</NaleznosciZTytuluWierzytelnosci>
+		</Aktywa>
+		<KapitalWlasny>
+			<MinimalnyWymaganyKapitalWlasny>
+				<Art50Ust1>2400036.91</Art50Ust1>
+				<Art50Ust1Ust4aPkt1>2630073.84</Art50Ust1Ust4aPkt1>
+				<Art50Ust2Ust3i4a Art50Ust2Ust3i4aOgolem="1050079.56">
+					<MinimalnyKapitalWlasnyKursEuro>600026.79</MinimalnyKapitalWlasnyKursEuro>
+					<ZwiekszenieKapitaluWlasnego>220015.84</ZwiekszenieKapitaluWlasnego>
+					<KwotaDodatkowa>230036.93</KwotaDodatkowa>
+				</Art50Ust2Ust3i4a>
+			</MinimalnyWymaganyKapitalWlasny>
+			<KursEuro>4.5756</KursEuro>
+			<SumaUbezpieczeniaPojedynczeRoszczenie>0</SumaUbezpieczeniaPojedynczeRoszczenie>
+			<SumaUbezpieczeniaWszystkieRoszczenia>0</SumaUbezpieczeniaWszystkieRoszczenia>
+			<NadwyzkaMinimalnegoKapitaluWlasnego>0</NadwyzkaMinimalnegoKapitaluWlasnego>
+			<KapitalWlasny KapitalWlasnyOgolem="335930075.15">
+				<WynikFinansowyNetto>-11030203.81</WynikFinansowyNetto>
+				<KapitalZakladowy>170804445.34</KapitalZakladowy>
+				<KapitalZapasowy>113750255.75</KapitalZapasowy>
+				<PozostaleKapitalyRezerwowe>13854263.46</PozostaleKapitalyRezerwowe>
+				<KapitalZAktualizacjiWyceny>869728.51</KapitalZAktualizacjiWyceny>
+				<ZyskStrataZLatUbieglych>756150.12</ZyskStrataZLatUbieglych>
+				<OdpisyZyskuNetto>0</OdpisyZyskuNetto>
+			</KapitalWlasny>
+		</KapitalWlasny>
+		<Zobowiazania ZobowiazaniaOgolem="93081413.74">
+			<ZobowiazaniaPodmioty>
+				<FunduszeInwestycyjne>3571002.97</FunduszeInwestycyjne>
+				<UczestnicyFunduszyInwestycyjnych>0</UczestnicyFunduszyInwestycyjnych>
+				<Akcjonariusze AkcjonariuszeOgolem="500321.58">
+					<Dywidendy>300121.28</Dywidendy>
+				</Akcjonariusze>
+				<PodmiotyZarzadzaniePortfelami>0</PodmiotyZarzadzaniePortfelami>
+				<PodmiotyDystrybucjaJednostek>3000026.73</PodmiotyDystrybucjaJednostek>
+			</ZobowiazaniaPodmioty>
+			<ZobowiazaniaPrzeterminowane>0</ZobowiazaniaPrzeterminowane>
+		</Zobowiazania>
+		<PozyczkiKredyty>
+			<PozyczkiKredytyBezEmisjiObligacji>2000025.63</PozyczkiKredytyBezEmisjiObligacji>
+			<ZobowiazaniaEmisjaObligacji>0</ZobowiazaniaEmisjaObligacji>
+			<PoreczeniaFunduszuWierzytelnosci>0</PoreczeniaFunduszuWierzytelnosci>
+		</PozyczkiKredyty>
+		<PrzychodyKoszty>
+			<Przychody PrzychodyOgolem="31801366.85">
+				<ZarzadzanieFunduszami ZarzadzanieFunduszamiOgolem="30389337.00">
+					<FIO>15194668.50</FIO>
+					<SFIO>6077867.41</SFIO>
+					<FIZ>9116801.10</FIZ>
+					<FunduszeZagraniczne>0</FunduszeZagraniczne>
+					<UnijneAFI>0</UnijneAFI>
+				</ZarzadzanieFunduszami>
+				<ZarzadzanieZbiorczymiPortfelamiPapierowWartosciowych>0</ZarzadzanieZbiorczymiPortfelamiPapierowWartosciowych>
+				<ZarzadzaniePortfelamiInstrumentyFinansowe>0</ZarzadzaniePortfelamiInstrumentyFinansowe>
+				<DoradztwoInwestycyjne>0</DoradztwoInwestycyjne>
+				<NabycieZbycieInstrumentowFinansowych>0</NabycieZbycieInstrumentowFinansowych>
+				<PosrednictwoNabycieZbycieJUCIWlasne>0</PosrednictwoNabycieZbycieJUCIWlasne>
+				<PosrednictwoNabycieZbycieJUCIInneTFI>0</PosrednictwoNabycieZbycieJUCIInneTFI>
+				<PosrednictwoNabycieZbycieJUCIFunduszyZagranicznych>0</PosrednictwoNabycieZbycieJUCIFunduszyZagranicznych>
+				<PrzedstawicielstwoFunduszyZagranicznych>0</PrzedstawicielstwoFunduszyZagranicznych>
+				<LikwidatorFunduszyInwestycyjnych>0</LikwidatorFunduszyInwestycyjnych>
+				<Odsetki>0</Odsetki>
+			</Przychody>
+			<Koszty KosztyOgolem="33950107.85">
+				<KosztyStale>10078618.56</KosztyStale>
+				<KosztyZmienne KosztyZmienneOgolem="23871489.38">
+					<Dystrybucja DystrybucjaOgolem="18929385.00">
+						<RealizacjaZlecenNabyciaZbyciaJUCI>5678815.5</RealizacjaZlecenNabyciaZbyciaJUCI>
+						<WynagrodzenieDystrybutorow>6625284.75</WynagrodzenieDystrybutorow>
+						<MarketingFunduszu>4732346.25</MarketingFunduszu>
+					</Dystrybucja>
+				</KosztyZmienne>
+			</Koszty>
+		</PrzychodyKoszty>
+		<DaneUzupelniajace ZarzadzaneAktywa="4069231027.26">
+			<AktywaZarzadzanychFunduszy>4068231027.21</AktywaZarzadzanychFunduszy>
+			<AktywaZarzadzanychFunduszyZagranicznych>0</AktywaZarzadzanychFunduszyZagranicznych>
+			<AktywaZarzadzanychUnijnychAFI>0</AktywaZarzadzanychUnijnychAFI>
+			<AktywaZarzadzanychZbiorczychPortfeliPapierowWartosciowych>0</AktywaZarzadzanychZbiorczychPortfeliPapierowWartosciowych>
+			<AktywaZarzadzanychPortfeliInstrumentyFinansowe AktywaZarzadzanychPortfeliInstrumentyFinansoweOgolem="0">
+				<InwestycjeWlasneJUCI>0</InwestycjeWlasneJUCI>
+			</AktywaZarzadzanychPortfeliInstrumentyFinansowe>
+			<AktywaFunduszyWLikwidacji>0</AktywaFunduszyWLikwidacji>
+			<PortfeleZarzadzanychAFI PortfeleZarzadzanychAFIOgolem="100000.00">
+				<DataPortfeliZarzadzanychAFI>2023-06-30</DataPortfeliZarzadzanychAFI>
+			</PortfeleZarzadzanychAFI>
+		</DaneUzupelniajace>
+	</Dane>
+</Sprawozdanie>
